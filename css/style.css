@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trocchi&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body{
+    background-color: rgb(122,107,40);
+}
+
+img.kumelen{
+    margin-left: 35%;
+    width: 30%;
+    height: 3%;
+}
+
+nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 5;    
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 1% 5%;
+    background-color: rgb(244,153,23);
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+li{
+    
+    float: left;
+}
+
+
+li a{
+    display: block;
+    padding: 0 15px 0 15px;
+    color: rgb(71, 59, 5);
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+li a:hover{
+    color: rgb(133, 109, 3);
+}
+
+section{
+    display: block;
+}
+section h1{
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    font-family: 'Trocchi', serif;
+    font-size: 40px;
+    color: rgb(244, 153, 23);
+}
+
+
+section p{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+section.start img{ /*Hacer intercalado de imagenes*/
+    width: 60%;
+    height: 40%;
+    border: solid 3px black;
+    border-radius: 20%;
+    margin: 1% 20% ;
+    transition: opacity 2s;
+    position: absolute;
+}
+
+img.top:hover{
+    opacity: 0;
+}
+
+section.workspaces{ /*Edicion seccion talleres*/
+    margin-top: 500px;
+}
+
+section.workspaces hr{
+    opacity: 0.5;
+    border-bottom:  rgb(244,153,23);
+}
+
+div.contain{
+    display: inline-block;
+
+    width: 30%;
+    height: 30%;
+    margin: 1% 1%;
+    padding: 1% 0%;
+    background-color: aliceblue;
+    border-radius: 20px 20px 0px 0;
+    border: solid 2px black;
+}
+
+section.workspaces div.contain h2{
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    font-family: 'Trocchi', serif;
+}
+
+section.workspaces div.contain img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+section.equip{
+    background-color:blanchedalmond;
+    border-radius: 30% 30% 10% 10%;
+    padding-bottom: 3%;
+}
+
+section.equip div{
+    margin-bottom: 3%;
+}
+
+
+section.equip h2{
+    text-align: center;
+}
+
+footer.contact h2{
+    color: rgb(244,153,23);
+}
+
+footer.contact iframe{
+
+    width: 100%;
+}
+
+footer.contact div.social_network h3{
+    float: left;
+    margin-left: 2%;
+}
+
+footer.contact div.social_network h3.facebook{
+    color: blue;
+}
+
+footer.contact div.social_network h3.instagram{
+    color: rgb(230, 163, 174);
+}
+
+footer.contact div.social_network h3 a{
+    color: rgb(0, 0, 0);
+}
+
+footer.contact div.social_network h3 a:hover{
+    color: whitesmoke;
+}
