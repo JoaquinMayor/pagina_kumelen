@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="est">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud Centro de Día Kumelen</title>
+    <link rel="stylesheet" href="/css/styleSolicitud.css"/>
+</head>
+
+<body>
+
+    <header id="inicio">
+        <img class="kumelen" src="/images//WhatsApp Image 2023-02-06 at 1.33.24 PM.png" alt="Centro de Día Kumelen" title="Centro de Día Kumelen"/>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="nav-button first">
+                <a href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-button">
+                <a href="#contact">Contacto</a>
+            </li>
+
+    </nav>
+
+    <form action="mi_server">
+        <fieldset>
+            <legend>Datos del Solicitante</legend>
+            
+            <label for="name">Nombre del Concurrente</label>
+            <br>
+            <input type="text" id="name" name="name" required placeholder="Ingrese el Nombre del Concurrente">
+            <br>
+            <label for="name">Apellido del Concurrente</label>
+            <br>
+            <input type="text" id="lastname" name="lastname" required placeholder="Ingrese el Apellido del Concurrente">
+            <br>
+            <label for="age">Edad del Concurrente</label>
+            <br>
+            <input type="number" id="age" name="age" placeholder="Ingrese la Edad" required min="18">
+            <br>
+            <label for="dni">DNI del Concurrente</label>
+            <br>
+            <input type="text" name="dni" id="dni" required placeholder="Ingrese el DNI del Concurrente">
+            <br>
+            <label for="discapacity">Discapacidad</label>
+            <br>
+            <select name="discapacity" id="discapacity" required>
+                <option value="retraso">Retraso Madurativo</option>
+                <option value="autismo">Autismo</option>
+                <option value="down">Sindrome de Down</option>
+                <option value="alucinaciones">Alucinaciones</option>
+            </select>
+            <br>
+            <label for="sanity_sistem">Obra Social</label>
+            <br>
+            <select id="sanity_sistem" name="sanity_sistem" required>
+                <option value="pami">PAMI</option>
+                <option value="osecac">OSECAC</option>
+                <option value="sanidad">Sanidad</option>
+                <option value="ioma">IOMA</option>
+            </select>
+            <br>
+            <label for="tel">Telefono de Contacto</label>
+            <br>
+            <input type="tel" name="tel" id="tel" required placeholder="Ingrese su Telefono">
+            <br>
+            <label for="email">Email de Contacto</label>
+            <br>
+            <input type="email" id="email" name="email" required placeholder="Ingrese su Email">
+            <br>
+            <br>
+            <input type="submit" value="Enviar" class="send">
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>

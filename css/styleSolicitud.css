@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(122,107,40);
+}
+
+img.kumelen{
+    margin-left: 35%;
+    width: 30%;
+    height: 3%;
+}
+
+nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 5;    
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 1% 5%;
+    background-color: rgb(244,153,23);
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+li{
+    
+    float: left;
+}
+
+
+li a{
+    display: block;
+    padding: 0 15px 0 15px;
+    color: rgb(71, 59, 5);
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+li a:hover{
+    color: rgb(133, 109, 3);
+}
+
+fieldset{
+    display: inline;
+    margin-left: 35%;
+    border: black 5px solid;
+    width: 30%;
+}
+
+fieldset label{
+    font-size: 200%;
+}
+
+fieldset input, select{
+    height: 30px;
+    width: 100%;
+    outline: none;
+}
+
+fieldset input.send{
+    height: 30px;
+    width: 100px;
+    outline: none;
+    margin-left: 40%;
+}
